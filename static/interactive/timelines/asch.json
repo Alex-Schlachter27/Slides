@@ -1,0 +1,121 @@
+{
+    "title": {
+        "media": {
+          "url": "../../images/asch/asch_hike.jpg",
+          "caption": "",
+          "credit": ""
+        },
+        "text": {
+          "headline": "My professional journey",
+          "text": "<p>From Civil Engineer over Architectural Engineer to Digital Construction Engineer</p>"
+        }
+    },
+    "events": [
+      {
+        "media": {
+            "url":"../../images/asch/htwg.jpg",
+            "thumbnail": "../../images/asch/htwg.jpg",
+            "credit":"https://www.htwg-konstanz.de/bachelor/wirtschaftsingenieurwesen-bau/uebersicht"
+        },
+        "start_date": {
+          "month": "10",
+          "day": "",
+          "year": "2014"
+        },
+        "end_date": {
+            "month": "7",
+            "day": "",
+            "year": "2018"
+        },
+        "text": {
+          "headline": "BEng Civil Engineering & Management",
+          "text": "<p>HTWG Konstanz (University of Applied Science</p>"
+        }
+      },
+      {
+        "media": {
+            "url":"../../images/asch/wpi.jpg",
+            "thumbnail": "../../images/asch/wpi.jpg",
+            "credit":"https://www.wpi.edu/"
+        },
+        "start_date": {
+          "month": "08",
+          "day": "",
+          "year": "2016"
+        },
+        "end_date": {
+            "month": "12",
+            "day": "",
+            "year": "2016"
+        },
+        "text": {
+          "headline": "Semester abroad in the US 🦅",
+          "text": "<p>Worcester Polytechnic Institute (WPI),</p>"
+        }
+      },
+      {
+        "media": {
+            "url":"../../images/asch/ae.jpg",
+            "thumbnail": "../../images/asch/ae.jpg",
+            "credit":"https://www.dtu.dk/uddannelse/bachelor/uddannelsesretninger/bygningsdesign",
+            "caption":"\"Polystyrene/cardboard engineer\""
+        },
+        "start_date": {
+          "month": "9",
+          "day": "",
+          "year": "2018"
+        },
+        "end_date": {
+            "month": "7",
+            "day": "",
+            "year": "2020"
+        },
+        "text": {
+          "headline": "MSc Architectural Engineering",
+          "text": "<p>Technical University of Denmark (DTU)</p><p>The middleman between the architect and the engineer</p>"
+        }
+      },
+      {
+        "media": {
+            "url":"../../images/asch/tec.jpg",
+            "thumbnail": "../../images/asch/tec.jpg",
+            "credit":"https://tec.mx/en"
+        },
+        "start_date": {
+          "month": "8",
+          "day": "",
+          "year": "2019"
+        },
+        "end_date": {
+            "month": "12",
+            "day": "",
+            "year": "2019"
+        },
+        "text": {
+          "headline": "Semester abroad in Mexico 🥑",
+          "text": "<p>Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)</p>"
+        }
+      },{
+        "media": {
+            "url":"../../images/asch/thesis4.png",
+            "thumbnail": "../../images/asch/thesis4.png",
+            "credit":"",
+            "caption":"Framework for Linked Data enabled project delivery"
+        },
+        "start_date": {
+          "month": "03",
+          "day": "",
+          "year": "2020"
+        },
+        "end_date": {
+            "month": "7",
+            "day": "",
+            "year": "2020"
+        },
+        "text": {
+          "headline": "Master's thesis",
+          "text": "<p>Unlocking the value of Linked Building Data (LBD)</p><p>Lean and integrated management process of temporary construction items (TCIs)</p><p>The basis of my professional journey.</p>"
+        }
+      }
+    ]
+}
