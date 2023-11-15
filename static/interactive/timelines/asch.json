@@ -15,7 +15,8 @@
         "media": {
             "url":"../../images/asch/htwg.jpg",
             "thumbnail": "../../images/asch/htwg.jpg",
-            "credit":"https://www.htwg-konstanz.de/bachelor/wirtschaftsingenieurwesen-bau/uebersicht"
+            "credit":"https://www.htwg-konstanz.de/bachelor/wirtschaftsingenieurwesen-bau/uebersicht",
+            "caption": "\"Learning to be a notepad engineer\""
         },
         "start_date": {
           "month": "10",
@@ -58,7 +59,7 @@
             "url":"../../images/asch/ae.jpg",
             "thumbnail": "../../images/asch/ae.jpg",
             "credit":"https://www.dtu.dk/uddannelse/bachelor/uddannelsesretninger/bygningsdesign",
-            "caption":"\"Polystyrene/cardboard engineer\""
+            "caption":""
         },
         "start_date": {
           "month": "9",
@@ -115,6 +116,265 @@
         "text": {
           "headline": "Master's thesis",
           "text": "<p>Unlocking the value of Linked Building Data (LBD)</p><p>Lean and integrated management process of temporary construction items (TCIs)</p><p>The basis of my professional journey.</p>"
+        }
+      },
+      {
+        "media": {
+            "url":"../../images/asch/ba.png",
+            "thumbnail": "../../images/asch/ba.png",
+            "credit":"",
+            "caption":"Integrated Project Delivery Implementation"
+        },
+        "start_date": {
+          "month": "1",
+          "day": "",
+          "year": "2018"
+        },
+        "end_date": {
+            "month": "6",
+            "day": "",
+            "year": "2018"
+        },
+        "text": {
+          "headline": "Bachelor's thesis",
+          "text": "<p>Successful imeplementation of integrated project delivery in the UAE</p>"
+        }
+      },
+      {
+        "media": {
+            "url":"../../images/asch/dtu_design_component.png",
+            "thumbnail": "../../images/asch/dtu_design_component.png",
+            "credit":"",
+            "caption":"Our proposal for a sustainable urban shelter"
+        },
+        "start_date": {
+          "month": "9",
+          "day": "",
+          "year": "2018"
+        },
+        "end_date": {
+            "month": "1",
+            "day": "",
+            "year": "2019"
+        },
+        "text": {
+          "headline": "Design component course",
+          "text": "<p>Urban shelter project</p><p>Designing an urban shelter from early conceptualisation to assembly</p><p>Addressing sustainability issue in terms of production, use, maintenance and disposal.</p>"
+        }
+      },
+      {
+        "media": {
+            "url":"../../images/asch/dtu_heating.png",
+            "thumbnail": "../../images/asch/dtu_heating.png",
+            "credit":"",
+            "caption":"Building simulation assignment"
+        },
+        "start_date": {
+          "month": "9",
+          "day": "",
+          "year": "2018"
+        },
+        "end_date": {
+            "month": "1",
+            "day": "",
+            "year": "2019"
+        },
+        "text": {
+          "headline": "Sustainable Heating and Cooling of Buildings Course",
+          "text": "<p>Exploring, calculating and evaluating different sustainable methods for heating and cooling of building</p><p></p>"
+        }
+      },      
+      {
+        "media": {
+            "url":"../../images/asch/dtu_wind_turbine.png",
+            "thumbnail": "../../images/asch/dtu_wind_turbine.png",
+            "credit":"",
+            "caption":"Proposal for a super-light structure integration in an existing bridge"
+        },
+        "start_date": {
+          "month": "2",
+          "day": "",
+          "year": "2019"
+        },
+        "end_date": {
+            "month": "6",
+            "day": "",
+            "year": "2019"
+        },
+        "text": {
+          "headline": "Super-light Structures Course",
+          "text": "<p>Understanding, designing and calculating super-light structures with pearl-chain reinforcement.</p><p>Case application in an interdisciplinary project.</p>"
+        }
+      },        
+      {
+        "media": {
+            "url":"../../images/asch/dtu_qa_bim.png",
+            "thumbnail": "../../images/asch/dtu_qa_bim.png",
+            "credit":"",
+            "caption":"QA-Process Workflow"
+        },
+        "start_date": {
+          "month": "2",
+          "day": "",
+          "year": "2019"
+        },
+        "end_date": {
+            "month": "6",
+            "day": "",
+            "year": "2019"
+        },
+        "text": {
+          "headline": "Special Course: Quality Assurance in BIM-based Integrated Design",
+          "text": "<p>Self-designed course to explore and map the process of QA using a BIM-based integrated design.</p><p>Research was supported by industry interviews and use cases.</p>"
+        }
+      },        
+      {
+        "media": {
+            "url":"../../images/asch/dtu_integrated_design.png",
+            "thumbnail": "../../images/asch/dtu_integrated_design.png",
+            "credit":"",
+            "caption":"Proposed dwelling concept for flexible housing"
+        },
+        "start_date": {
+          "month": "2",
+          "day": "",
+          "year": "2019"
+        },
+        "end_date": {
+            "month": "6",
+            "day": "",
+            "year": "2019"
+        },
+        "text": {
+          "headline": "Special Course: Quality Assurance in BIM-based Integrated Design",
+          "text": "<p>Project-based course including architectural engineers and anthropologists.</p><p>Housing design originates directly from the needs of the residents of a social housing estate.</p>"
+        }
+      },      
+      {
+        "media": {
+            "url":"../../images/logos/niras.svg",
+            "thumbnail": "../../images/logos/niras.svg",
+            "credit":"",
+            "caption":""
+        },
+        "start_date": {
+          "month": "10",
+          "day": "",
+          "year": "2020"
+        },
+        "text": {
+          "headline": "NIRAS",
+          "text": "<p>Consultant - Digitalization in Constru</p><p>Development of BIM-related Web Applications, Linked Data solutions, Data-driven and location-based scheduling, BIM Health Checking, BIM Construction Management, Prototyping of innovative solutions</p>"
+        }
+      },
+      {
+        "media": {
+            "url":"../../images/mhra/projects/WeBIM.png",
+            "thumbnail": "../../images/mhra/projects/WeBIM.png",
+            "credit":"",
+            "caption":"Room history allows you to see how the layout has changed over time"
+        },
+        "start_date": {
+          "month": "10",
+          "day": "",
+          "year": "2020"
+        },
+        "end_date": {
+            "month": "12",
+            "day": "",
+            "year": "2021"
+        },
+        "text": {
+          "headline": "WeBIM",
+          "text": "<p>Web-BIM platform for providing engineers with insights.</p>"
+        }
+      },
+      {
+        "media": {
+          "url":"../../images/asch/niras_br.gif",
+          "thumbnail": "../../images/asch/niras_br.png",
+          "credit":"",
+          "caption":"Site Layout Planning for Børneriget Hospital project"
+        },
+        "start_date": {
+          "month": "1",
+          "day": "",
+          "year": "2021"
+        },
+        "end_date": {
+            "month": "11",
+            "day": "",
+            "year": "2021"
+        },
+        "text": {
+          "headline": "Construction Management",
+          "text": "<p>Construction management for a hospital project</p><p>Site planning & coordination as well as scheduling and progress registration.</p>"
+        }
+      },
+      {
+        "media": {
+          "url":"../../images/asch/niras_br.png",
+          "thumbnail": "../../images/asch/niras_br.png",
+          "credit":"",
+          "caption":"LBS App demo"
+        },
+        "start_date": {
+          "month": "2",
+          "day": "",
+          "year": "2021"
+        },
+        "end_date": {
+            "month": "6",
+            "day": "",
+            "year": "2021"
+        },
+        "text": {
+          "headline": "LBS App",
+          "text": "<p>Web-App for location-based scheduling</p><p>From BIM to a location and quantity-based schedule.</p>"
+        }
+      },
+      {
+        "media": {
+            "url":"../../images/mhra/projects/BART.gif",
+            "thumbnail": "../../images/mhra/projects/bartbyg.png",
+            "credit":"https://bartbyg.dk",
+            "caption":"Deliverables in the BART project"
+        },
+        "start_date": {
+          "month": "6",
+          "day": "",
+          "year": "2021"
+        },
+        "end_date": {
+            "month": "6",
+            "day": "",
+            "year": "2022"
+        },
+        "text": {
+          "headline": "BART",
+          "text": "<p>Track A: Building Solibri rule sets for checking danish building regulations</p><p>Track B: Investigating new methods (including Linked Data)</p>"
+        }
+      },
+      {
+        "media": {
+          "url":"../../images/mhra/projects/K4A.gif",
+          "thumbnail": "../../images/mhra/projects/K4A1.png",
+          "credit":"",
+          "caption":"Mockup of UI for Examination Declarations"
+        },
+        "start_date": {
+          "month": "1",
+          "day": "",
+          "year": "2022"
+        },
+        "end_date": {
+            "month": "3",
+            "day": "",
+            "year": "2022"
+        },
+        "text": {
+          "headline": "K4A",
+          "text": "<p>kobl 4 architecture</p><p>Formalization of design frames and checks that are continiously checked against.</p>"
         }
       }
     ]
