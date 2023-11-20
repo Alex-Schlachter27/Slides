@@ -3,10 +3,8 @@ Slides of Alex Schlachter
 
 
 ## To DO
-- Niras: Sitemotion, VAL, 
-- Paper + article
 - LD-BIM (Built)
-- AAR
+- PAA stuff
 
 Presentation
 - - Masters thesis?

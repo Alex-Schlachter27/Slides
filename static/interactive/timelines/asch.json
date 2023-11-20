@@ -262,6 +262,11 @@
           "day": "",
           "year": "2020"
         },
+        "end_date": {
+            "month": "9",
+            "day": "",
+            "year": "2022"
+        },
         "text": {
           "headline": "NIRAS",
           "text": "<p>Consultant - Digitalization in Constru</p><p>Development of BIM-related Web Applications, Linked Data solutions, Data-driven and location-based scheduling, BIM Health Checking, BIM Construction Management, Prototyping of innovative solutions</p>"
@@ -313,8 +318,8 @@
       },
       {
         "media": {
-          "url":"../../images/asch/niras_br.png",
-          "thumbnail": "../../images/asch/niras_br.png",
+          "url":"../../images/asch/lbs.gif",
+          "thumbnail": "../../images/asch/lbs.jpg",
           "credit":"",
           "caption":"LBS App demo"
         },
@@ -375,6 +380,101 @@
         "text": {
           "headline": "K4A",
           "text": "<p>kobl 4 architecture</p><p>Formalization of design frames and checks that are continiously checked against.</p>"
+        }
+      },
+      {
+        "media": {
+          "url":"../../images/asch/val.jpg",
+          "thumbnail": "../../images/asch/val.jpg",
+          "credit":"",
+          "caption":"Time-Location Diagram"
+        },
+        "start_date": {
+          "month": "2",
+          "day": "",
+          "year": "2021"
+        },
+        "end_date": {
+            "month": "6",
+            "day": "",
+            "year": "2021"
+        },
+        "text": {
+          "headline": "VAL tunnel project",
+          "text": "<p>Time Location Planning of a cloudburst tunnel to prevent flooding.</p>"
+        }
+      },
+      {
+        "media": {
+          "url":"../../images/asch/rdfox_article.png",
+          "thumbnail": "../../images/asch/rdfox_article.png",
+          "credit":"https://www.oxfordsemantic.tech/blog/niras-and-rdfox-constructing-solutions-with-knowledge-graphs-and-reasoning",
+          "caption":"Joint Articel Niras+RDFox"
+        },
+        "start_date": {
+          "month": "1",
+          "day": "",
+          "year": "2023"
+        },
+        "text": {
+          "headline": "Article: Data-driven Construction Planning with Knowledge Graphs and Reasoning",
+          "text": "<p>Using Linked Data and incremental reasoning, construction planning suddenly becomes parametric because the construction schedule is directly linked to the building models. As we change data in the models, the schedule changes accordingly. This enables us to explore alternatives and to see the impact of doing things differently.</p>"
+        }
+      },      
+      {
+        "media": {
+          "url":"../../images/asch/aic.png",
+          "thumbnail": "../../images/asch/aic.png",
+          "credit":"https://www.sciencedirect.com/science/article/abs/pii/S0926580522001315",
+          "caption":"Alex Schlachter, Mads Holten Rasmussen, Jan Karlshøj"
+        },
+        "start_date": {
+          "month": "7",
+          "day": "",
+          "year": "2022"
+        },
+        "text": {
+          "headline": "Using Linked Building Data for managing temporary construction items",
+          "text": "<p>Paper publication in the online journal Automation in Construction</p>"
+        }
+      },      
+      {
+        "media": {
+          "url":"../../images/asch/ldac.png",
+          "thumbnail": "../../images/asch/ldac.png",
+          "credit":"https://ceur-ws.org/Vol-3081/06paper.pdf",
+          "caption":"Alex Schlachter, Mads Holten Rasmussen, Jan Karlshøj"
+        },
+        "start_date": {
+          "month": "10",
+          "day": "",
+          "year": "2021"
+        },
+        "text": {
+          "headline": "A Linked Building Data Approach to Site Planning and Managing Temporary Construction Items",
+          "text": "<p>Paper publication and presentation at the conference LDAC 2021</p>"
+        }
+      },            
+      {
+        "media": {
+          "url":"../../images/asch/ldbim.png",
+          "thumbnail": "../../images/asch/ldbim.png",
+          "credit":"https://bit.ly/3h59mvA",
+          "caption":"LD-BIM sample query"
+        },
+        "start_date": {
+          "month": "10",
+          "day": "",
+          "year": "2021"
+        },
+        "end_date": {
+            "month": "6",
+            "day": "",
+            "year": "2021"
+        },
+        "text": {
+          "headline": "Bilt Europe: A hands-on BYOBIM workshop on Linked Building Data",
+          "text": "<p>Workshop at Bilt Europe 2022 in Valencia to teach Linked Building Data (LBD)<p><p>Using our free online application LD-BIM to showcase the LBD toolset and to demonstrate the capabilities of Linked Building Data to newcomers.</p>"
         }
       }
     ]
