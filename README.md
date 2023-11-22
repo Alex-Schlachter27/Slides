@@ -3,8 +3,10 @@ Slides of Alex Schlachter
 
 
 ## To DO
-- LD-BIM (Built)
-- PAA stuff
+- CRSH6
+- Støjskærm
+- Developments?!
+- 
 
 Presentation
 - - Masters thesis?

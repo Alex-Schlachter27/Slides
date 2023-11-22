@@ -181,7 +181,7 @@
         },
         "text": {
           "headline": "Sustainable Heating and Cooling of Buildings Course",
-          "text": "<p>Exploring, calculating and evaluating different sustainable methods for heating and cooling of building</p><p></p>"
+          "text": "<p>Exploring, calculating and evaluating different sustainable methods for heating and for cooling of buildings</p><p></p>"
         }
       },      
       {
@@ -246,7 +246,7 @@
             "year": "2019"
         },
         "text": {
-          "headline": "Special Course: Quality Assurance in BIM-based Integrated Design",
+          "headline": "Integrated Design Course",
           "text": "<p>Project-based course including architectural engineers and anthropologists.</p><p>Housing design originates directly from the needs of the residents of a social housing estate.</p>"
         }
       },      
@@ -476,6 +476,114 @@
           "headline": "Bilt Europe: A hands-on BYOBIM workshop on Linked Building Data",
           "text": "<p>Workshop at Bilt Europe 2022 in Valencia to teach Linked Building Data (LBD)<p><p>Using our free online application LD-BIM to showcase the LBD toolset and to demonstrate the capabilities of Linked Building Data to newcomers.</p>"
         }
-      }
+      },     
+      {
+        "media": {
+            "url":"../../images/asch/paa.svg",
+            "thumbnail": "../../images/asch/paa.svg",
+            "credit":"",
+            "caption":""
+        },
+        "start_date": {
+          "month": "9",
+          "day": "",
+          "year": "2022"
+        },
+        "end_date": {
+            "month": "5",
+            "day": "",
+            "year": "2024"
+        },
+        "text": {
+          "headline": "Per Aarsleff A/S",
+          "text": "<p>VDC Coordinator & Developer</p><p>Implementing and Executing VDC services at the construction project Ny Ellebjerg Concourse Hall</p>"
+        }
+      },           
+      {
+        "media": {
+          "url":"../../documents/PAA/CRSH6/ifc_sim.mp4",
+          "thumbnail": "../../documents/PAA/CRSH6/ifc_sim.mp4",
+          "credit":"https://ifc-sim.web.app/",
+          "caption":"4D Web Simulation for the project CRSH6"
+        },
+        "start_date": {
+          "month": "3",
+          "day": "",
+          "year": "2023"
+        },
+        "end_date": {
+            "month": "6",
+            "day": "",
+            "year": "2023"
+        },
+        "text": {
+          "headline": "IfcSim: Development of a web-based 4D simulation of the main schedule",
+          "text": "<p>Out of the challenge on site that our 4D simulation video - created in Navisworks - was not interactive and therefore not used on site</p><p>The web-based simulation was accessible by everyone through the browser, interactive as with a 3D-viewer and easy to update with changes in the models or the schedule</p>"
+        }
+      },                 
+      {
+        "media": {
+          "url":"../../documents/PAA/CRSH6/digital_reinforcement.png",
+          "thumbnail": "../../documents/PAA/CRSH6/digital_reinforcement.png",
+          "caption":"Reinforcement sequencing and visualization using the digital model"
+        },
+        "start_date": {
+          "month": "1",
+          "day": "",
+          "year": "2023"
+        },
+        "end_date": {
+            "month": "6",
+            "day": "",
+            "year": "2023"
+        },
+        "text": {
+          "headline": "3D Reinforcement detailing based on 2D drawings from the Consultant",
+          "text": "<ul><li>Constructability<li>Quality Assurance in 3D<li>Coordination with other disciplines in 3D<li>All quantities are available and reliable<li>Generation of working drawings and cut and bend lists from 3D reinforcement model<li>Sequencing the working steps<li>Link to related drawings and documents to the 3D objects<ul>"
+        }
+      },                      
+      {
+        "media": {
+          "url":"../../documents/PAA/CRSH6/cost_to_complete_excel.png",
+          "thumbnail": "../../documents/PAA/CRSH6/cost_to_complete_excel.png",
+          "caption":"Linking model elements as digital reinforcement to cost positions"
+        },
+        "start_date": {
+          "month": "7",
+          "day": "",
+          "year": "2023"
+        },
+        "end_date": {
+            "month": "12",
+            "day": "",
+            "year": "2023"
+        },
+        "text": {
+          "headline": "Cost to Complete",
+          "text": "<p>Linking model elements to cost positions to keep track about quantity deviations and cost development</p>"
+        }
+      },
+      {
+        "media": {
+          "url":"../../documents/PAA/CRSH6/scanning.gif",
+          "thumbnail": "../../documents/PAA/CRSH6/scanning1.png",
+          "credit":"https://www.imerso.com/",
+          "caption":"Analysis of a scan from an existing interfacing project"
+        },
+        "start_date": {
+          "month": "5",
+          "day": "",
+          "year": "2023"
+        },
+        "end_date": {
+            "month": "2",
+            "day": "",
+            "year": "2024"
+        },
+        "text": {
+          "headline": "3D Scanning",
+          "text": "<p>Registration of the existing condition as well as the progress of the project.</p><p>Creation of a point cloud that is analyzed in comparison to the building models with Imerso.</p>"
+        }
+      }                      
     ]
 }
