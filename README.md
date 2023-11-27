@@ -3,19 +3,17 @@ Slides of Alex Schlachter
 
 
 ## To DO
-- CRSH6
-- Støjskærm
 - Developments?!
 - 
 
 Presentation
-- - Masters thesis?
-- Paper
-- LBS-App
-- BART
-- RDFox Article
-- LD-BIM (from built presentation)
-- incremental reasoning?
-- CRSH6 (with ifcSim)
+- - Masters thesis !!
+- Paper (?) --> PDF?
+- LBS-App !!
+- BART (DONE)
+- RDFox Article (part of incremental reasoning)
+- LD-BIM (from built presentation) (DONE)
+- incremental reasoning? (DONE)
+- CRSH6 (with ifcSim) !!
 - ...?
 

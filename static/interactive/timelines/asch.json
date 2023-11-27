@@ -268,8 +268,8 @@
             "year": "2022"
         },
         "text": {
-          "headline": "NIRAS",
-          "text": "<p>Consultant - Digitalization in Constru</p><p>Development of BIM-related Web Applications, Linked Data solutions, Data-driven and location-based scheduling, BIM Health Checking, BIM Construction Management, Prototyping of innovative solutions</p>"
+          "headline": "NIRAS A/S",
+          "text": "<p>Consultant - Digitalization in Constrution</p><ul><li>Development of BIM-related Web Applications<li>Linked Data solutions<li>Data-driven and location-based scheduling<li>BIM Health Checking<li>BIM Construction Management<li>Prototyping of innovative solutions</ul>"
         }
       },
       {
@@ -496,7 +496,7 @@
         },
         "text": {
           "headline": "Per Aarsleff A/S",
-          "text": "<p>VDC Coordinator & Developer</p><p>Implementing and Executing VDC services at the construction project Ny Ellebjerg Concourse Hall</p>"
+          "text": "<p>VDC Coordinator & Developer</p><ul><li>Implementing and Executing VDC services at the construction project Ny Ellebjerg Concourse Hall.<li>Developinig new solutions and more automated processes within VDC and digitalization.<li>Actively driving innovation projects for our VDC department.</ul>"
         }
       },           
       {
@@ -539,7 +539,7 @@
         },
         "text": {
           "headline": "3D Reinforcement detailing based on 2D drawings from the Consultant",
-          "text": "<ul><li>Constructability<li>Quality Assurance in 3D<li>Coordination with other disciplines in 3D<li>All quantities are available and reliable<li>Generation of working drawings and cut and bend lists from 3D reinforcement model<li>Sequencing the working steps<li>Link to related drawings and documents to the 3D objects<ul>"
+          "text": "<ul><li>Constructability<li>Quality Assurance in 3D<li>Coordination with other disciplines in 3D<li>All quantities are available and reliable<li>Generation of working drawings and cut and bend lists from 3D reinforcement model<li>Sequencing the working steps<li>Link to related drawings and documents to the 3D objects</ul>"
         }
       },                      
       {
@@ -560,7 +560,7 @@
         },
         "text": {
           "headline": "Cost to Complete",
-          "text": "<p>Linking model elements to cost positions to keep track about quantity deviations and cost development</p>"
+          "text": "<p>Linking model elements to cost positions to keep track on quantity deviations and cost development</p>"
         }
       },
       {
@@ -584,6 +584,70 @@
           "headline": "3D Scanning",
           "text": "<p>Registration of the existing condition as well as the progress of the project.</p><p>Creation of a point cloud that is analyzed in comparison to the building models with Imerso.</p>"
         }
-      }                      
+      },
+      {
+        "media": {
+          "url":"../../documents/PAA/CRSH6/crsh6.gif",
+          "thumbnail": "../../documents/PAA/CRSH6/crsh6.png",
+          "credit":"",
+          "caption":"CRSH6 Concourse Hall"
+        },
+        "start_date": {
+          "month": "9",
+          "day": "",
+          "year": "2022"
+        },
+        "end_date": {
+            "month": "2",
+            "day": "",
+            "year": "2024"
+        },
+        "text": {
+          "headline": "VDC Coordination CRSH6",
+          "text": "<p>Responsible for all VDC services and deliveries for the project CRSH6 Ny Ellebjerg Concourse Hall including technical responsibility for 2 VDC employees on the project</p><ul><li>Quality Assurance & Constructability Analysis<li>Model Coordination and Visualization<li>Technical design for fabrication<li>Construction sequencing<li>Time Scheduling & 4D<li>As-built registrations</ul>"
+        }
+      },                        
+      {
+        "media": {
+          "url":"../../documents/PAA/CRSH6/bimkiosk.png",
+          "thumbnail": "../../documents/PAA/CRSH6/bimkiosk.png",
+          "caption":"BIM Kiosk implementation on site"
+        },
+        "start_date": {
+          "month": "3",
+          "day": "",
+          "year": "2023"
+        },
+        "end_date": {
+            "month": "11",
+            "day": "",
+            "year": "2023"
+        },
+        "text": {
+          "headline": "BIM Kiosk",
+          "text": "<p>VDC for all - how to bring VDC to the construction site</p><p>Construction endurable computer on site with internet connection that enables access to the project material and to all VDC services for every project participant. Especially our concrete workers actively used this service to coordinate the construction sequences for the reinforcement design and to access the related drawings.</p><p>The BIM Kiosk allowed to access all of these services through the web:</p><ul><li>ACC project platform<li>Trimble Connect model developemnt and design changes<li>Trimble Connect model coordination and construction sequences<li>Web-based 4D<li>Web-based Site model<li>Web-based point-cloud and as-built review</ul>"
+        }
+      },                
+      {
+        "media": {
+          "url":"../../documents/PAA/CRSH6/stojskaerm.gif",
+          "thumbnail": "../../documents/PAA/CRSH6/stojskaerm3.png",
+          "caption":"Digital modelling of a noise screen project "
+        },
+        "start_date": {
+          "month": "8",
+          "day": "",
+          "year": "2023"
+        },
+        "end_date": {
+            "month": "12",
+            "day": "",
+            "year": "2023"
+        },
+        "text": {
+          "headline": "Noise Screen Project",
+          "text": "<p>Pilot project to test the potential of using VDC for general rail (linear) projects</p><p>The project included the following steps:</p><ul><li>Modelling of noise screen piles based on coordinates, rotation and profile information via Grasshopper<li>Dividing the project stretch into zones where specific principles are applied<li>Generating excavation surfaces based on the profile zoning and a point cloud for the existing terrain<li>Generating quantity reports for the excavations<li>Visual quality assurance of the project in 3D<li>Export of LandXML files to automate the excavation process</ul>"
+        }
+      }                              
     ]
 }

@@ -108,17 +108,6 @@
 			<!-- ASCH -->
 			<section>
 
-				<section data-background-iframe="./static/interactive/timelines/timeline.html?file=mhra-full.json">
-					<aside class="notes">
-						From beginning of university till thesis
-					</aside>
-				</section>
-
-			</section>
-
-			<!-- MHRA -->
-			<section>
-
 				<section data-background-iframe="./static/interactive/timelines/timeline.html?file=asch.json">
 					<aside class="notes">
 						From beginning of university till thesis
@@ -131,23 +120,24 @@
 
 				<section>
 					<h2>Master's thesis</h2>
-					<h4>2012-2013</h4>
+					<h4>2019-2020</h4>
 				</section>
 
 				<section>
 					<h2>Overall flow</h2>
 					<ol>
-						<li class="fragment fade-up">Building owner defines room types and their ICE requirements</li>
-						<span class="fragment fade-up">
+						<li class="fragment fade-up">Formwork is required for insitu construction</li>
+						<!-- <span class="fragment fade-up">
 							<li>Design stage</li>
 							<ol>
 								<li>Engineers set technical boundary conditions</li>
 								<li>Spaces in IFC model coded with room types</li>
 							</ol>
-						</span>
-						<li class="fragment fade-up">Design frames exported to IDA ICE template and IFC loaded</li>
-						<li class="fragment fade-up">Simulation performed</li>
-						<li class="fragment fade-up">Results exported</li>
+						</span> -->
+						<li class="fragment fade-up">The foreman of the concrete team estimates an amount of different forms based on his project overview</li>
+						<li class="fragment fade-up">The items are delivered on site as early as possible to ensure enough formwork is available at all time</li>
+						<li class="fragment fade-up">Detailed insights regarding when and where which amount and types of formwork is used is not available</li>
+						<li class="fragment fade-up">Items not in use are using valuable space cost the project unnecessary money</li>
 					</ol>
 				</section>
 
@@ -180,53 +170,235 @@
 
 			</section>
 
+
+			<!-- LBD -->
+			<section>
+				<section>
+					<h2>A modular and extendable building representation</h2>
+				</section>
+
+				<!-- BOT -->
+				<section data-background-image="./static/images/BOT-papers.svg" data-background-size="80vw"
+					data-state="cap-bot3">
+					<h2 class="box">BOT: The Building Topology Ontology</h2>
+					<style>
+						.cap-bot3 cap:after {
+							content: "Rasmussen, M. H., Lefrançois, Maxime, Schneider, G. F., Pauwels, P. (2020). BOT: the Building Topology Ontology of the W3C Linked Building Data Group. Semantic Web Journal.";
+						}
+					</style>
+				</section>
+
+				<section data-background-image="./static/images/BOT-purpose-01.svg" data-background-size="80vw">
+				</section>
+
+				<section data-background-image="./static/images/BOT-purpose-02.svg" data-background-size="80vw">
+				</section>
+
+				<section data-background-image="./static/images/BOT-purpose-03.svg" data-background-size="80vw">
+				</section>
+
+				<section data-background-image="./static/images/BOT-content-01.svg" data-background-size="80%"
+				data-background-position="50% 60%" data-state="cap-bot2">
+				<style>
+					.cap-bot2 cap:after {
+					content: "Rasmussen, M., Pauwels, P., Lefrançois, M., Schneider, G. F., Hviid, C., & Karlshøj, J. (2017, November). Recent changes in the building topology ontology. In LDAC2017-5th Linked Data in Architecture and Construction Workshop.";
+					}
+				</style>
+				</section>
+
+				<section data-background-image="./static/images/BOT-content-02.svg" data-background-size="80%"
+				data-background-position="50% 60%" data-state="cap-bot2">
+				</section>
+
+				<section data-background-image="./static/images/BOT-content-03.svg" data-background-size="80%"
+				data-background-position="50% 60%" data-state="cap-bot2">
+				</section>
+
+				<!-- BOT ZONE -->
+				<section>
+					<h2 class="center">bot:Zone</h2>
+				</section>
+
+				<section data-background-image="./static/images/BOT-Zones-02.svg" data-background-size="80vw">
+				</section>
+
+				<section data-background-image="./static/images/BOT-Zones-03.svg" data-background-size="80vw">
+				</section>
+
+				<!-- BOT ELEMENT -->
+				<section>
+					<h2 class="center">bot:Element</h2>
+				</section>
+
+				<section data-background-image="./static/images/BOT-Elements-01.svg" data-background-size="80vw">
+				</section>
+
+				<section data-background-image="./static/images/BOT-Elements-02.svg" data-background-size="80vw">
+				</section>
+
+				<section data-background-image="./static/images/BOT-Elements-03.svg" data-background-size="80vw">
+				</section>
+
+				<!-- BOT INTERFACE -->
+
+				<section>
+					<h2 class="center">bot:Interface</h2>
+				</section>
+
+				<section data-background-image="./static/images/BOT-Interfaces-01.svg" data-background-size="80vw">
+				</section>
+
+				<section data-background-image="./static/images/BOT-Interfaces-02.svg" data-background-size="80vw">
+				</section>
+
+				<section data-background-image="./static/images/BOT-Interfaces-03.svg" data-background-size="80vw">
+				</section>
+
+				<!-- <section data-background-image="./static/images/BOT-Interfaces-04.svg" data-background-size="80vw">
+				</section>
+				<section data-background-image="./static/images/BOT-Interfaces-05.svg" data-background-size="80vw">
+				</section> -->
+
+			<!-- LD BIM EXAMPLE QUERIES -->
+			</section>
+
+				<!-- Query: sites -->
+				<section
+					data-background-iframe="https://ld-bim.web.app?duplex=true&query=PREFIX%20bot%3A%20%3Chttps%3A%2F%2Fw3id.org%2Fbot%23%3E%20%0A%0ACONSTRUCT%0AWHERE%7B%0A%20%20%20%3Fsite%20a%20bot%3ASite%0A%7D"
+					data-background-interactive>
+				</section>
+
+				<!-- Query: sites + buildings -->
+				<section
+					data-background-iframe="https://ld-bim.web.app?duplex=true&query=PREFIX%20bot%3A%20%3Chttps%3A%2F%2Fw3id.org%2Fbot%23%3E%20%0A%0ACONSTRUCT%0AWHERE%7B%0A%20%20%20%3Fsite%20a%20bot%3ASite%20.%0A%20%20%20%3Fsite%20bot%3AhasBuilding%20%3Fbldg%20.%0A%20%20%20%3Fbldg%20a%20bot%3ABuilding%0A%7D"
+					data-background-interactive>
+				</section>
+
+				<!-- Query: sites + buildings + storeys -->
+				<section
+					data-background-iframe="https://ld-bim.web.app?duplex=true&query=PREFIX%20bot%3A%20%3Chttps%3A%2F%2Fw3id.org%2Fbot%23%3E%20%0A%0ACONSTRUCT%0AWHERE%7B%0A%20%20%20%3Fsite%20a%20bot%3ASite%20.%0A%20%20%20%3Fsite%20bot%3AhasBuilding%20%3Fbldg%20.%0A%20%20%20%3Fbldg%20a%20bot%3ABuilding%20.%0A%20%20%20%3Fbldg%20bot%3AhasStorey%20%3Flvl%20.%0A%20%20%20%3Flvl%20a%20bot%3AStorey%20.%0A%7D"
+					data-background-interactive>
+				</section>
+
+				<!-- Query: sites + buildings + storeys + spaces -->
+				<section
+					data-background-iframe="https://ld-bim.web.app?duplex=true&query=PREFIX%20bot%3A%20%3Chttps%3A%2F%2Fw3id.org%2Fbot%23%3E%20%0A%0ACONSTRUCT%0AWHERE%7B%0A%20%20%20%3Fsite%20a%20bot%3ASite%20.%0A%20%20%20%3Fsite%20bot%3AhasBuilding%20%3Fbldg%20.%0A%20%20%20%3Fbldg%20a%20bot%3ABuilding%20.%0A%20%20%20%3Fbldg%20bot%3AhasStorey%20%3Flvl%20.%0A%20%20%20%3Flvl%20a%20bot%3AStorey%20.%0A%20%20%20%3Flvl%20bot%3AhasSpace%20%3Fspace%20.%0A%20%20%20%3Fspace%20a%20bot%3ASpace%0A%7D%0A"
+					data-background-interactive>
+				</section>
+
+				<!-- Query: sites + buildings + storeys + spaces TABLE -->
+				<section
+					data-background-iframe="https://ld-bim.web.app?duplex=true&query=PREFIX%20bot%3A%20%3Chttps%3A%2F%2Fw3id.org%2Fbot%23%3E%20%0A%0ASELECT%20%2A%0AWHERE%7B%0A%20%20%20%3Fsite%20a%20bot%3ASite%20.%0A%20%20%20%3Fsite%20bot%3AhasBuilding%20%3Fbldg%20.%0A%20%20%20%3Fbldg%20a%20bot%3ABuilding%20.%0A%20%20%20%3Fbldg%20bot%3AhasStorey%20%3Flvl%20.%0A%20%20%20%3Flvl%20a%20bot%3AStorey%20.%0A%20%20%20%3Flvl%20bot%3AhasSpace%20%3Fspace%20.%0A%20%20%20%3Fspace%20a%20bot%3ASpace%0A%7D"
+					data-background-interactive>
+				</section>
+
+				<!-- Query: adjacent elements -->
+				<section
+					data-background-iframe="https://ld-bim.web.app?duplex=true&query=PREFIX%20bot%3A%20%3Chttps%3A%2F%2Fw3id.org%2Fbot%23%3E%20%0APREFIX%20inst%3A%20%3Chttps%3A%2F%2Fweb-bim%2Fresources%2F%3E%20%0A%0ACONSTRUCT%0AWHERE%7B%0A%20%20%20inst%3A0BTBFw6f90Nfh9rP1dlXru%20bot%3AadjacentElement%20%3Fel%20%0A%7D"
+					data-background-interactive>
+				</section>
+
+				<!-- Query: interfaces -->
+				<section
+					data-background-iframe="https://ld-bim.web.app?duplex=true&query=PREFIX%20ex%3A%20%3Chttps%3A%2F%2Fexample.com%2F%3E%20%0APREFIX%20kg%3A%20%3Chttps%3A%2F%2Fw3id.org%2Fkobl%2Fgeometry%23%3E%20%0APREFIX%20bot%3A%20%3Chttps%3A%2F%2Fw3id.org%2Fbot%23%3E%20%0APREFIX%20inst%3A%20%3Chttps%3A%2F%2Fweb-bim%2Fresources%2F%3E%20%0A%0ASELECT%20DISTINCT%20%3Fboundary%20%3Fls%20%3Fel%0AWHERE%7B%0A%20%20%20BIND%28inst%3A0BTBFw6f90Nfh9rP1dl_3A%20AS%20%3Fspace%29%0A%20%20%20%3Fboundary%20bot%3AinterfaceOf%20%3Fspace%20%2C%20%3Fel%20%3B%0A%20%20%20%20%20%20%20kg%3Avertices3D%20%3Fver%20%3B%0A%20%20%20%20%20%20%20ex%3AisVertical%20true%20.%0A%20%20%20FILTER%28%3Fel%20%21%3D%20%3Fspace%29%0A%20%20%20BIND%28CONCAT%28%22POLYGON%20Z%20%28%22%2C%20STR%28%20%3Fver%20%29%2C%20%22%29%22%29%20%20%20AS%20%3Fls%20%29%0A%7D"
+					data-background-interactive>
+				</section>
+			</section>
+
+			<!-- BART -->
 			<section>
 
 				<section>
-					<h2>My research</h2>
+					<h2>BART Stage 2 delivery</h2>
 				</section>
 
 				<section>
-					<h2>Problems in scope</h2>
-					<ul>
-						<li class="fragment fade-up">We do BIM, but it involves perhaps 25 % of the knowledge we generate</li>
-						<li class="fragment fade-up">Complex and interdependent project documents are handled in a manual fashion</li>
-						<li class="fragment fade-up">Accessing information is hard and requires manual work</li>
-						<li class="fragment fade-up">Most of your time is spent on revising project material to reflect recent changes</li>
-						<li class="fragment fade-up">...and answering e-mails to other project participants who need information that is hard to dig out of the fragmented project material</li>
-						<li class="fragment fade-up">Knowledge and traceability is lost as people change jobs</li>
-					</ul>
+					<img src="./static/images/mhra/projects/ConTech5-fire-cl_ol.svg">
 				</section>
 
 				<section>
-					<h2>Some research highlights</h2>
-					<ul>
-						<li>BOT: The Building Topology Ontology</li>
-						<li>OPM: Ontology for Property Management</li>
-						<li>FSO: Flow Systems Ontology</li>
-					</ul>
+					<img src="./static/images/logos/RDFox.png" height="100vh">
+					<p>Incremential reasoning</p>
+				</section>
+
+				<section data-background-video="./static/videos/mhra-bart.mp4" 
+					data-background-video-loop data-background-video-muted>
 				</section>
 
 				<section>
-					<p>In my research I realised that while creating cool tools is awesome,<br><br> <span class="highlight-container"><span class="highlight">the important part is to establish a common language<br> and shared understanding</span></span></p>
+					<h2>BART Stage 3 delivery</h2>
+				</section>
+
+				<section data-background-iframe="https://bartchecker.z16.web.core.windows.net/" 
+					data-background-interactive>
+				</section>
+
+			</section>
+
+			<section>
+
+				<section>
+					<h2>The potential of incremential reasoning</h2>
+					<h2>A use case for HVAC Engineering</h2>
+				</section>
+
+				<section data-background-image="./static/images/mhra/projects/RDFox test-01.svg" data-background-size="80%">
+				</section>
+				<section data-background-image="./static/images/mhra/projects/RDFox test-02.svg" data-background-size="80%">
+				</section>
+				<section data-background-image="./static/images/mhra/projects/RDFox test-03.svg" data-background-size="80%">
+				</section>
+				<section data-background-image="./static/images/mhra/projects/RDFox test-04.svg" data-background-size="80%">
+				</section>
+				<section data-background-image="./static/images/mhra/projects/RDFox test-05.svg" data-background-size="80%">
+				</section>
+				<section data-background-image="./static/images/mhra/projects/RDFox test-06.svg" data-background-size="80%">
+				</section>
+				<section data-background-image="./static/images/mhra/projects/RDFox test-07.svg" data-background-size="80%">
+				</section>
+				<section data-background-image="./static/images/mhra/projects/RDFox test-08.svg" data-background-size="80%">
+				</section>
+				<section data-background-image="./static/images/mhra/projects/RDFox test-09.svg" data-background-size="80%">
+				</section>
+				<section data-background-image="./static/images/mhra/projects/RDFox test-10.svg" data-background-size="80%">
+				</section>
+				<section data-background-image="./static/images/mhra/projects/RDFox test-11.svg" data-background-size="80%">
+				</section>
+				<section data-background-image="./static/images/mhra/projects/RDFox test-12.svg" data-background-size="80%">
 				</section>
 
 				<section>
-					<p>...but as our industry involves so many different stakeholders, <span class="highlight-container"><span class="highlight">a global common understanding is unattainable!</span></span></p>
+					<h2>The potential of incremential reasoning</h2>
+					<h2>A use case for Construction Management</h2>
+					<img src="./static/images/asch/rdfox_cm.png" >
 				</section>
-
-				<section data-background-image="./static/images/CWA.svg" data-background-size="90vw 85vh"></section>
-
-				<section data-background-image="./static/images/OWA_en.svg" data-background-size="90vw 85vh"></section>
 
 				<section>
-					<p>The very intention of BOT is to provide a minimal, extendable common core.</p>
+					<div style="display: flex; flex-direction: column; align-items: center;">
+						<h3>Rule 1</h3>
+						<img src="./static/images/asch/rdfox_cm1.svg" >
+						<p>Helper Rule: <span style="font-style: oblique">"Apply type properties to instances"</span></p>
+						<img src="./static/images/asch/rdfox_cm1.png" height="100vh">
+						<p style="font-size: 20px;">All related properties of an instance can be retrieved by just querying the instance.</p>
+					</div>
 				</section>
-
-				<section data-background-iframe="./static/interactive/timelines/timeline.html?file=mhra-full.json#event-phd-application-approved">
-					<aside class="notes">
-						Continue through merger through all the different projects to Contech Project
-					</aside>
+				<section>
+					<div style="display: flex; flex-direction: column; align-items: center;">
+						<h3>Rule 2</h3>
+						<img src="./static/images/asch/rdfox_cm2.svg" >
+						<p>Splitting of prefabricated elements based on max. weight</p>
+						<img src="./static/images/asch/rdfox_cm2.png" height="130vh">
+						<p style="font-size: 20px;">In the process of installing prefabricated elements, it is crucial that the time estimation is based on the right assumptions. To make sure these assumptions are acted upon correctly, we need to feed our data with expert experience.</p>
+					</div>
+				</section>
+				<section>
+					<div style="display: flex; flex-direction: column; align-items: center;">
+						<h3>Rule 3</h3>
+						<img src="./static/images/asch/rdfox_cm3.svg" >
+						<p>Calculating the installation time for prefabricated elements</p>
+						<img src="./static/images/asch/rdfox_cm3.png" height="100vh">
+						<p style="font-size: 20px;">The next step in planning the construction activities is to estimate how long it will all take and to do so we need to estimate the time consumption of each activity, based on a rule.</p>
+					</div>
 				</section>
 
 			</section>
@@ -322,69 +494,6 @@
 
 				<section>
 					<p><span class="highlight-container"><span class="highlight">Intelligent systems can infer the implicit knowledge from the bits and pieces that we feed it</span></span></p>
-				</section>
-
-			</section>
-
-			<!-- BART -->
-			<section>
-
-				<section>
-					<h2>BART Stage 2 delivery</h2>
-				</section>
-
-				<section>
-					<img src="./static/images/mhra/projects/ConTech5-fire-cl_ol.svg">
-				</section>
-
-				<section>
-					<img src="./static/images/logos/RDFox.png" height="100vh">
-					<p>Incremential reasoning</p>
-				</section>
-
-				<section data-background-video="./static/videos/mhra-bart.mp4" 
-					data-background-video-loop data-background-video-muted>
-				</section>
-
-				<section>
-					<h2>BART Stage 3 delivery</h2>
-				</section>
-
-				<section data-background-iframe="https://bartchecker.z16.web.core.windows.net/" 
-					data-background-interactive>
-				</section>
-
-			</section>
-
-			<section>
-
-				<section>
-					<h2>The potential of incremential reasoning</h2>
-				</section>
-
-				<section data-background-image="./static/images/mhra/projects/RDFox test-01.svg" data-background-size="80%">
-				</section>
-				<section data-background-image="./static/images/mhra/projects/RDFox test-02.svg" data-background-size="80%">
-				</section>
-				<section data-background-image="./static/images/mhra/projects/RDFox test-03.svg" data-background-size="80%">
-				</section>
-				<section data-background-image="./static/images/mhra/projects/RDFox test-04.svg" data-background-size="80%">
-				</section>
-				<section data-background-image="./static/images/mhra/projects/RDFox test-05.svg" data-background-size="80%">
-				</section>
-				<section data-background-image="./static/images/mhra/projects/RDFox test-06.svg" data-background-size="80%">
-				</section>
-				<section data-background-image="./static/images/mhra/projects/RDFox test-07.svg" data-background-size="80%">
-				</section>
-				<section data-background-image="./static/images/mhra/projects/RDFox test-08.svg" data-background-size="80%">
-				</section>
-				<section data-background-image="./static/images/mhra/projects/RDFox test-09.svg" data-background-size="80%">
-				</section>
-				<section data-background-image="./static/images/mhra/projects/RDFox test-10.svg" data-background-size="80%">
-				</section>
-				<section data-background-image="./static/images/mhra/projects/RDFox test-11.svg" data-background-size="80%">
-				</section>
-				<section data-background-image="./static/images/mhra/projects/RDFox test-12.svg" data-background-size="80%">
 				</section>
 
 			</section>
