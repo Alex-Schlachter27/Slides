@@ -8,12 +8,12 @@ Slides of Alex Schlachter
 
 Presentation
 - - Masters thesis !!
-- Paper (?) --> PDF?
+- Paper (?) --> PDF? (DONE)
 - LBS-App !!
 - BART (DONE)
-- RDFox Article (part of incremental reasoning)
+- RDFox Article (part of incremental reasoning) (DONE)
 - LD-BIM (from built presentation) (DONE)
 - incremental reasoning? (DONE)
-- CRSH6 (with ifcSim) !!
+- CRSH6 (with ifcSim) (DONE)
 - ...?
 

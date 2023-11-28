@@ -81,10 +81,8 @@
 		</cap>
 
 		<!-- Footer left -->
-		<div class="footer-left">
-			<!-- <img src="./static/images/logos/niras.svg" height="35vw"> <img src="./static/images/logos/Aarsleff.svg" height="35vw"> -->
-			<img src="./static/images/logos/mountain-icon.png" height="35vw" class="icon" href="http://127.0.0.1:5500/Slides/CV_AlexSchlachter.html">
-			<!-- <a href="http://127.0.0.1:5500/Slides/CV_AlexSchlachter.html"><img src="./static/images/logos/mountain-icon.png" height="35vw" class="icon"></a> -->
+		<div class="footer-left" style="z-index: 1;">
+			<a href="#/1"><img src="./static/images/logos/mountain-icon.png" height="35vw" class="icon"></a>
 		</div>
 		
 
@@ -95,22 +93,13 @@
 				<h1>From "Notepad" Engineer to Digital Construction Engineer</h1>
 			</section>
 
-			<section>
-				<h1>Agenda</h1>
-				<ul>
-					<li class="fragment fade-up">Basically a retrospective of my professional life</li>
-					<li class="fragment fade-up">Takeaways <span class="highlight-container"><span class="highlight">highlighted</span></span> along the way</li>
-					<li class="fragment fade-up"><span style="font-style: oblique">If there is time:</span> More details on selected projects</li>
-				</ul>
-			</section>
-
 			<!-- Timeline start -->
 			<!-- ASCH -->
 			<section>
 
 				<section data-background-iframe="./static/interactive/timelines/timeline.html?file=asch.json">
 					<aside class="notes">
-						From beginning of university till thesis
+						Mu professional journey
 					</aside>
 				</section>
 
@@ -137,11 +126,23 @@
 						<li class="fragment fade-up">The foreman of the concrete team estimates an amount of different forms based on his project overview</li>
 						<li class="fragment fade-up">The items are delivered on site as early as possible to ensure enough formwork is available at all time</li>
 						<li class="fragment fade-up">Detailed insights regarding when and where which amount and types of formwork is used is not available</li>
-						<li class="fragment fade-up">Items not in use are using valuable space cost the project unnecessary money</li>
+						<li class="fragment fade-up">Items not in use are using valuable space and cost the project unnecessary money</li>
 					</ol>
 				</section>
 
 				<section>
+					<h2>Paper publications</h2>
+					<ol>
+						<li>Automation in Construction</li>
+						<li>Linked Data in Architecture and Construction (LDAC)</li>
+					</ol>
+				</section>
+				
+				<!-- <section><object data="./static/documents/Paper/AiC_Using Linked Building Data for managing temporary construction items.pdf" style="width:100%; height:100vh"></object></section> -->
+				<section data-background-iframe="./static/documents/Paper/AiC_Using Linked Building Data for managing temporary construction items.pdf" data-background-interactive></section>
+				<section data-background-iframe="./static/documents/Paper/LDAC_LBDforTCIs.pdf" data-background-interactive></section>
+
+				<!-- <section>
 					<video data-autoplay src="./static/videos/mhra-msc-thesis-highlights.mp4"></video>
 				</section>
 
@@ -166,7 +167,7 @@
 					<aside class="notes">
 						Continue through work tasks till PhD approved
 					</aside>
-				</section>
+				</section> -->
 
 			</section>
 
@@ -174,7 +175,8 @@
 			<!-- LBD -->
 			<section>
 				<section>
-					<h2>A modular and extendable building representation</h2>
+					<h2>Linked Building Data in a nutshell</h2>
+					<h3>BOT: A modular and extendable building representation</h3>
 				</section>
 
 				<!-- BOT -->
@@ -260,7 +262,6 @@
 				</section> -->
 
 			<!-- LD BIM EXAMPLE QUERIES -->
-			</section>
 
 				<!-- Query: sites -->
 				<section
@@ -335,11 +336,16 @@
 
 			</section>
 
+			<!-- Incremental reasoning -->
 			<section>
 
 				<section>
 					<h2>The potential of incremential reasoning</h2>
-					<h2>A use case for HVAC Engineering</h2>
+					<ol>
+						<li class="fragment fade-up">A use case for HVAC Engineering</li>
+						<li class="fragment fade-up">A use case for Construction Management</li>
+					</ol>
+					
 				</section>
 
 				<section data-background-image="./static/images/mhra/projects/RDFox test-01.svg" data-background-size="80%">
@@ -368,10 +374,19 @@
 				</section>
 
 				<section>
-					<h2>The potential of incremential reasoning</h2>
 					<h2>A use case for Construction Management</h2>
-					<img src="./static/images/asch/rdfox_cm.png" >
 				</section>
+
+				<section data-background-image="./static/images/asch/lbs_schema.png" data-background-size="80%">
+				</section>
+
+				<section data-background-image="./static/images/asch/rdfox_cm.png" data-background-size="80%">
+				</section>
+
+				<!-- <section>
+					<img src="./static/images/asch/lbs_schema.png" height="250vh">
+					<img src="./static/images/asch/rdfox_cm.png" height="250vh">
+				</section> -->
 
 				<section>
 					<div style="display: flex; flex-direction: column; align-items: center;">
@@ -401,6 +416,151 @@
 					</div>
 				</section>
 
+				<!-- Article -->
+				<section
+					data-background-iframe="https://www.oxfordsemantic.tech/blog/niras-and-rdfox-constructing-solutions-with-knowledge-graphs-and-reasoning"
+					data-background-interactive>
+				</section>
+
+
+				<section>
+					<h2>LBS App</h2>
+					<h4>Utilizing incremental reasoning for model and location-based scheduling</h4>
+				</section>
+
+				<section>
+					<video data-autoplay src="./static/documents/NIRAS/Teaser_Digitale-LBS.mp4"></video>
+				</section>
+
+
+			</section>
+
+
+			<!-- Construction MAanagement 4D -->
+			<!-- LBD -->
+			<section>
+				<section>
+					<h2>Implementing 4D at a construction site</h2>
+				</section>
+
+				<section>
+					<p>Initial process setup</p>
+					<ol style="font-size: smaller;">
+						<li class="fragment fade-up">All discipline models are classified with a coding system for grouping 3D objects together. E.g. A secant pile is coded with the Mark property "SP001" and the GroupIdentification property "TC-SecantPileWall-South"</li>
+						<li class="fragment fade-up">The activities in the main schedule that can be linked to 3D objects are equiped with a 4D-property that contains a list of all classification-codes that specifies the items that are constructed in the activity.</li>
+						<li class="fragment fade-up">A script takes the discipine models and the main schedule as an input, looks for common identifiers and adds schedule information to each object.</li>
+						<li class="fragment fade-up">Voilà! All discipline models are 4D-enabled!</li>
+						<li class="fragment fade-up">Importing the models into Navisworks, running the task-element wizard based on the 4D-properties and creating a 4D-video of the project is now a piece of cake!</li>
+						<li class="fragment fade-up">Whenever there is a change in the project that affects either the models or the schedule or both, the affected item is updated and then the script runs again and updates the 4D-enabled models</li>
+					</ol>
+					<p style="font-size: smaller;" class="fragment fade-up">A perfect workflow to effectively implement 4D into the project?</p>
+				</section>
+
+				<section>
+					<h2>Right?</h2>
+				</section>
+
+				<section>
+					<h2>But the 4D video was never actively used on site</h2>
+					<img src="./static/images/asch/crsh6_4d.png" >
+				</section>
+
+				<section>
+					<p>For various reasons:</p>
+					<ol>
+						<li class="fragment fade-up">The video was not interactive enough to be used on site - it was only a dumm mp4-file.</li>
+						<li class="fragment fade-up">Colleagues on site did not have Navisworks installed or were not familiar enough to use the 4D simulation in Navisworks</li>
+						<li class="fragment fade-up">Construction workers on site cannot use the 4D-simulation</li>
+					</ol>
+				</section>
+			
+				<section style="font-size: smaller;">
+					<h2>That's why we developed an easy-to-use and accessible web-based 4D-simulation (as a weekend project)</h2>
+					<h2>On our project we had great success to bring valuable 4D information to each project participant in need</h2>
+				</section>
+
+				
+				<section data-background-image="./static/images/asch/ifcsim.png" data-background-size="80%">
+				</section>
+
+				<!-- ifcSim CRSH6 -->
+				<section
+					data-background-iframe="https://ifc-sim.web.app/"
+					data-background-interactive>
+				</section>
+
+			</section>
+
+			<!-- CRSH6 -->
+			<section>
+
+				<section>
+					<h2>VDC at Ny Ellebjerg</h2>
+					<h4>A success story of implementing VDC</h4>
+				</section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide1.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide2.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide3.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide4.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide5.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide6.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide7.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide8.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide9.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide10.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide11.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide12.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide13.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide14.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide15.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide16.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide17.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide18.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide19.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide20.png" data-background-size="70%"></section>
+
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide21.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide22.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide23.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide24.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide25.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide26.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide27.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide28.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide29.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide30.png" data-background-size="70%"></section>
+
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide31.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide32.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide33.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide34.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide35.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide36.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide37.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide38.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide39.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide40.png" data-background-size="70%"></section>
+
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide41.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide42.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide43.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide44.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide45.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide46.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide47.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide48.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide49.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide50.png" data-background-size="70%"></section>
+
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide51.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide52.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide53.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide54.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide55.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide56.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide57.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide58.png" data-background-size="70%"></section>
+				<section data-background-image="./static/documents/PAA/CRSH6/VDC på Ny Ellebjerg_231123/Slide59.png" data-background-size="70%"></section>
 			</section>
 
 			<!-- ConTech -->
@@ -496,8 +656,10 @@
 					<p><span class="highlight-container"><span class="highlight">Intelligent systems can infer the implicit knowledge from the bits and pieces that we feed it</span></span></p>
 				</section>
 
-			</section>
+			</section> 
 
+
+			<!-- Final remarks -->
 			<section>
 
 				<h2>Final remark</h2>
