@@ -463,20 +463,32 @@
           "caption":"LD-BIM sample query"
         },
         "start_date": {
-          "month": "10",
+          "month": "11",
           "day": "",
-          "year": "2021"
-        },
-        "end_date": {
-            "month": "6",
-            "day": "",
-            "year": "2021"
+          "year": "2022"
         },
         "text": {
           "headline": "Bilt Europe: A hands-on BYOBIM workshop on Linked Building Data",
           "text": "<p>Workshop at Bilt Europe 2022 in Valencia to teach Linked Building Data (LBD)<p><p>Using our free online application LD-BIM to showcase the LBD toolset and to demonstrate the capabilities of Linked Building Data to newcomers.</p>"
         }
-      },     
+      },                
+      {
+        "media": {
+          "url":"../../images/asch/bim_island.jpg",
+          "thumbnail": "../../images/asch/bim_island.jpg",
+          "credit":"https://bit.ly/3h59mvA",
+          "caption":"VDC for everyone"
+        },
+        "start_date": {
+          "month": "5",
+          "day": "",
+          "year": "2023"
+        },
+        "text": {
+          "headline": "BIM Island Conference",
+          "text": "<p>Showcase of the VDC implementation on site at the project NY Ellebjerg in Copenhagen. The focus was set on teaching how all project participants and especially the workers on site can benefit from VDC.</p>"
+        }
+      },       
       {
         "media": {
             "url":"../../images/asch/paa.svg",
