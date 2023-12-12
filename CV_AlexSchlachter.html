@@ -68,6 +68,53 @@
 			z-index: 10;
 			background-color: red;
 		}
+		.agenda-point {
+			background-color: #2a76dd;
+			padding: 5px;
+			width: auto;
+			height: auto;
+			/* margin: 10px; */
+			line-height: 35px;
+			font-weight: bold;
+			font-size: 1.0em;
+			text-align: center;
+		}
+		.agenda-point>a{
+			color: white;
+		}
+
+		.agenda-container {
+			height: 100%;
+			padding: 0;
+			margin: 0;
+			display: flex;
+			align-items: start;
+			justify-content: center;
+			flex-direction: column;
+			gap: 10px;
+		}
+		.row {
+			display: flex;
+			width: auto;
+			flex-direction: row;
+			gap: 20px
+			/* border: 1px solid blue; */
+		}
+		a:hover {
+			opacity: 0.7;
+			text-decoration: none; 
+			cursor: pointer;
+		}
+		a {
+			text-decoration: none;
+		}
+		.names {
+			font-size: 0.8em;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
 	</style>
 
 </head>
@@ -93,13 +140,109 @@
 				<h1>From "Notepad" Engineer to Digital Construction Engineer</h1>
 			</section>
 
+			<!-- AGENDA -->
+			<section>
+				<h2>Agenda</h2>
+				<div class="agenda-container">
+					<div class="row">
+						<div class="names">
+							<span>1.</span>
+						</div>
+						<div class="agenda-point">
+							<a href="#/2">My professional journey</a>
+						</div>
+						
+					</div>
+
+					<div class="row">
+						<div class="names">
+							<span>2.</span>
+						</div>
+						<div class="agenda-point">
+							<a href="#/3">Master's thesis</a>
+						</div>
+						<div class="names">
+							<span>Using Linked Building Data for managing temporary construction items</span>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="names">
+							<span>3.</span>
+						</div>
+						<div class="agenda-point">
+							<a href="#/4">Linked Building Data in a nutshell</a>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="names">
+							<span>4.</span>
+						</div>
+						<div class="agenda-point">
+							<a href="#/5">BART Stage 2 delivery</a>
+						</div>
+						<div class="names">
+							<span>Automatic rulechecking research project</span>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="names">
+							<span>5.</span>
+						</div>
+						<div class="agenda-point">
+							<a href="#/6">Incremential reasoning</a>
+						</div>
+						<div class="names">
+							<span>Two use cases - HVAC & Construction Management</span>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="names">
+							<span>6.</span>
+						</div>
+						<div class="agenda-point">
+							<a href="#/7">Implementing 4D at a construction site</a>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="names">
+							<span>7.</span>
+						</div>
+						<div class="agenda-point">
+							<a href="#/8">VDC at Ny Ellebjerg</a>
+						</div>
+						<div class="names">
+							<span>A success story of implementing VDC</span>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="names">
+							<span>8.</span>
+						</div>
+						<div class="agenda-point">
+							<a href="#/9">ConTech Pioneer Project 5</a>
+						</div>
+						<div class="names">
+							<span>Inferring implicit knowledge to BIM data</span>
+						</div>
+					</div>
+
+
+				</div>
+			</section>
+
 			<!-- Timeline start -->
 			<!-- ASCH -->
 			<section>
 
 				<section data-background-iframe="./static/interactive/timelines/timeline.html?file=asch.json">
 					<aside class="notes">
-						Mu professional journey
+						My professional journey
 					</aside>
 				</section>
 
@@ -731,13 +874,13 @@
 
 
 			<!-- Final remarks -->
-			<section>
+			<!-- <section>
 
 				<h2>Final remark</h2>
 				<p>The technology is maturing - all the bits and pieces are already there</p>
 				<p>Go and create something meaningful with it! 🚀🚀🚀</p>
 
-			</section>
+			</section> -->
 
 			<section>
 
